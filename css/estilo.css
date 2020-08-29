@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+}
+
+body{
+    color: rgb(6, 6, 56);
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 strong{
+    color: white;
+}
+
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+}
+
+.header{
+    background:rgb(24, 169, 10);
+    color: rgb(252, 247, 241);
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    }
+
+.header li{
+    height: inherit;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    }
+
+.logo img{
+    width: 90px;
+}
+        
+.menu{
+    height: inherit;
+}
+        
+.principal {
+    background: rgb(136, 89, 7);
+    background-image: url(../img/fondoplantas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px;
+}  
+
+.principal img{
+    width: 300px;
+    border-radius: 40px;
+    border: 10px solid white;
+}
+    
+.principal-boton{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(85, 67, 6);
+    color: white;
+    border-radius: 24px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.somos{
+    background: rgb(90, 245, 111);
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+}
+    
+.somos h2{
+    color: white;
+}
+    
+.third{
+    background: rgb(141, 230, 123);
+}
+
+/*
+.padre{
+background: white;
+display: flex;
+flex-wrap: nowrap;
+}
+
+.hijo{
+background: orange;
+width: 300px;
+height: 300px;
+border: 2px solid yellowgreen;
+font-size: 30px;
+}
+*/
+
+.aplicar{
+height: 500px;
+background: rgb(250, 246, 246);
+display: flex;
+}
+
+.aplicar-detalles{
+width: 50%;
+height: inherit;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 30px;
+text-align: center;
+}
+
+
+.aplicar-detalles img{
+height: 90%;
+}
+
+
+
+
+
+
+
+
